@@ -4,21 +4,21 @@ The script utilizes the Selenium library in Python to automate the process of en
 
 ## How to Use
 
-![推理界面](image.png)
+![Inference interface](image.png)
 
 ### Step Zero
-运行该脚本，待网页打开后，手动上传你的参考录音和对应的文本。
+Run the script, and once the webpage loads, manually upload your reference audio and the corresponding text.
 
 ### Step One
-准备合成语音文件，以 **千秋诗颂_zh.txt** 为例，将其放到脚本所在目录下。
-（程序自动读取该文件，并将其中的文本输入到输入框中。）
+Prepare to synthesize the speech file, for example using **千秋诗颂_zh.txt**, and place it in the directory where the script is located. 
+(The program will automatically read the file and input the text into the input box.)
 
 ### Step Two
-（程序自动点击 **合成语音** 按钮，并等待合成完成。）
+(The program automatically clicks the **synthesize speech** button and waits for the synthesis to complete.)
 
 ### Step Three
-在本地电脑建立文件夹，以 **E:\vedio_generated\\** 为例，将合成的语音文件保存到该文件夹。
-(程序自动下载合成的语音文件，并保存到脚本所在目录下。)
+Create a folder on the local computer. Take **E:\vedio_generated\\** * as an example to save the synthesized voice file to this folder.
+(The program automatically downloads the synthesized voice file and saves it to the directory where the script resides.)
 
 ### Step Four
-脚本运行结束，关闭浏览器窗口。
+After the script runs, close the browser window.
